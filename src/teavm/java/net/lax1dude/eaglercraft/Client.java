@@ -100,9 +100,9 @@ public class Client {
 			str.append("Game Crashed! I have fallen and I can't get up! If this has happened more than once then please copy the text on this screen and publish it in the issues feed of this fork's GitHub repository.\n\nThe URL to this fork's GitHub repository is: " + ConfigConstants.forkMe + "\n\n");
 			str.append(t);
 			str.append('\n').append('\n');
-			str.append("eaglercraft.version = \"").append(ConfigConstants.version).append("\"\n");
-			str.append("eaglercraft.minecraft = \"1.5.2\"\n");
-			str.append("eaglercraft.brand = \"eagtek\"\n");
+			str.append("BillyX1.3.version = \"").append(ConfigConstants.version).append("\"\n");
+			str.append("BillyX1.3.minecraft = \"1.3\"\n");
+			str.append("BillyX1.3.brand = \"BillyX1.3\"\n");
 			//str.append("eaglercraft.username = \"").append(EaglerProfile.username).append("\"\n");
 			//str.append("eaglercraft.channel = \"").append(EaglerProfile.myChannel).append("\"\n");
 			str.append('\n');
