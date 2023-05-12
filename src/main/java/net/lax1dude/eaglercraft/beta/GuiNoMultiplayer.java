@@ -24,10 +24,10 @@ public class GuiNoMultiplayer extends GuiScreen {
 	
 	public void drawScreen(int mx, int my, float f) {
 		drawDefaultBackground();
-		drawCenteredString(fontRenderer, "Multiplayer is not supported yet", width / 2, height / 4 - 10, 0xFFFFFF);
+		drawCenteredString(fontRenderer, "Multiplayer is not supported yet just wait! ", width / 2, height / 4 - 10, 0xFFFFFF);
 		drawCenteredString(fontRenderer, "Minecraft Beta public servers are VERY INSECURE!", width / 2, height / 4 + 15, 0xFFCCCC);
-		drawCenteredString(fontRenderer, "Just watch some of Team Avolition's old videos", width / 2, height / 4 + 26, 0xFFCCCC);
-		drawCenteredString(fontRenderer, "I will add it soon, just shut up and be patient", width / 2, height / 4 + 52, 0x888888);
+		drawCenteredString(fontRenderer, "make sure to bookmark the website", width / 2, height / 4 + 26, 0xFFCCCC);
+		drawCenteredString(fontRenderer, "I will add it soon,just be patient", width / 2, height / 4 + 52, 0x888888);
 		super.drawScreen(mx, my, f);
 	}
 	
